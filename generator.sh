@@ -254,6 +254,8 @@ function genrate_emails() {
 #=0.3^(1/$prev_rank)
 # where prev_rank starts at 1
 
+### we could also do some random variation on this too - gaussian distribution perhaps
+
 # but that just gives us raw numbers with a first number input
 # and we want percentages of the list instead
 # so we'll have to massage it a bit more
